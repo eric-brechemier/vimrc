@@ -18,3 +18,6 @@ $ mkdir .vim/colors
 $ cd .vim/colors
 $ wget https://github.com/eric-brechemier/vimrc/raw/master/.vim/colors/norwaytoday.vim
 $ cd ~
+
+Note:
+The option --no-check-certificate may be needed for wget.
