@@ -13,8 +13,7 @@ norwaytoday color scheme by Josh O'Rourke
 Setup:
 $ cd ~
 $ wget https://github.com/eric-brechemier/vimrc/raw/master/.vimrc
-$ mkdir .vim
-$ mkdir .vim/colors
+$ mkdir -p .vim/colors
 $ cd .vim/colors
 $ wget https://github.com/eric-brechemier/vimrc/raw/master/.vim/colors/norwaytoday.vim
 $ cd ~
