@@ -24,6 +24,11 @@ set title                 "show file name in title bar of console window
 set nobackup              "do not keep a backup file"
 set autowriteall          "auto-save changes when quitting or switching buffer"
 
+" swap files
+set directory=~/.vim/swap// "save swap files (*.swp, *.swo, ...) in ~/.vim/swap
+                            "with full path encoded in file name
+                            "(/ characters are replaced with %)
+
 " scrolling
 set nostartofline         "keep the cursor on same column on page up/down"
 
@@ -34,5 +39,6 @@ set nostartofline         "keep the cursor on same column on page up/down"
 autocmd InsertEnter * setlocal spell spelllang=en_us   "spell in locale en-US"
 autocmd InsertLeave * setlocal nospell            "disable spell in view mode"
 
-" Reference:
+" References:
 " http://phuzz.org/vimrc.html
+" http://vim.wikia.com/wiki/Remove_swap_and_backup_files_from_your_working_directory
