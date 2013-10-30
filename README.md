@@ -12,6 +12,9 @@ http://creativecommons.org/publicdomain/zero/1.0/
 
 * http://phuzz.org/vimrc.html
 
+* [Remove swap and backup files from your working directory]
+  (http://vim.wikia.com/wiki/Remove_swap_and_backup_files_from_your_working_directory)
+
 ## Features ##
 
 * norwaytoday color scheme by Josh O'Rourke (public domain)
