@@ -9,9 +9,6 @@ pwd
 echo "To the root of current user's home folder:"
 echo ~
 
-echo 'Copy custom vim configuration (.vimrc)'
-cp -p .vimrc ~
-
 echo 'Create .vim folder'
 mkdir ~/.vim
 
@@ -23,3 +20,6 @@ cp -p .vim/colors/norwaytoday.vim ~/.vim/colors
 
 echo 'Create subdirectory for swap files'
 mkdir ~/.vim/swap
+
+echo 'Copy custom vim configuration (.vimrc)'
+cp -p .vimrc ~
