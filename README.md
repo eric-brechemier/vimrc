@@ -6,15 +6,10 @@
 
 ## Setup ##
 
-    $ cd ~
-    $ wget https://github.com/eric-brechemier/vimrc/raw/master/.vimrc
-    $ mkdir -p .vim/colors
-    $ cd .vim/colors
-    $ wget https://github.com/eric-brechemier/vimrc/raw/master/.vim/colors/norwaytoday.vim
-    $ cd ~
+* run `setup/install.sh` to copy custom vim configuration to your home folder
 
-Note:
-The option --no-check-certificate may be needed for wget.
+You can run `setup/uninstall.sh` to remove `.vimrc` file and `.vim` folder
+from the root of your home folder.
 
 ## References ##
 
