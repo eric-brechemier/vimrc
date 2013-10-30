@@ -1,22 +1,27 @@
-Simple configuration for vim (vimrc)
-by Eric Bréchemier
+# Simple configuration for vim (vimrc) #
+# by Eric Bréchemier #
 
-License:
+## License ##
+
+CC0  
 http://creativecommons.org/publicdomain/zero/1.0/
 
-Reference:
-http://phuzz.org/vimrc.html
+## References ##
 
-Features:
-norwaytoday color scheme by Josh O'Rourke
+* http://phuzz.org/vimrc.html
 
-Setup:
-$ cd ~
-$ wget https://github.com/eric-brechemier/vimrc/raw/master/.vimrc
-$ mkdir -p .vim/colors
-$ cd .vim/colors
-$ wget https://github.com/eric-brechemier/vimrc/raw/master/.vim/colors/norwaytoday.vim
-$ cd ~
+## Features ##
+
+* norwaytoday color scheme by Josh O'Rourke
+
+## Setup ##
+
+    $ cd ~
+    $ wget https://github.com/eric-brechemier/vimrc/raw/master/.vimrc
+    $ mkdir -p .vim/colors
+    $ cd .vim/colors
+    $ wget https://github.com/eric-brechemier/vimrc/raw/master/.vim/colors/norwaytoday.vim
+    $ cd ~
 
 Note:
 The option --no-check-certificate may be needed for wget.
