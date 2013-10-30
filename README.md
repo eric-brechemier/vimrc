@@ -1,5 +1,7 @@
 # Simple configuration for vim (vimrc) #
-# by Eric Bréchemier #
+
+## Author ##
+Eric Bréchemier
 
 ## License ##
 
