@@ -1,3 +1,6 @@
+" Simple configuration for vim (vimrc)
+" https://github.com/eric-brechemier/vimrc
+
 set nocompatible          "use vim defaults, not vi compatibility"
 set backspace =2          "add support for backspace in vim on cygwin
 
