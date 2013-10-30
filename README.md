@@ -14,7 +14,7 @@ http://creativecommons.org/publicdomain/zero/1.0/
 
 ## Features ##
 
-* norwaytoday color scheme by Josh O'Rourke
+* norwaytoday color scheme by Josh O'Rourke (public domain)
 
 ## Setup ##
 
