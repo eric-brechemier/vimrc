@@ -1,5 +1,13 @@
 # Simple configuration for vim (vimrc) #
 
+## Language ##
+
+Shell (dash)
+
+## Target Platform ##
+
+Ubuntu 12.04 LTS
+
 ## Features ##
 
 * norwaytoday color scheme by Josh O'Rourke (public domain)
