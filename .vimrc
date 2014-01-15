@@ -38,9 +38,11 @@ set nostartofline         "keep the cursor on same column on page up/down"
 " search
 " set ignorecase            "ignore case when searching"
 
-" spell check words in comments, but only in edit mode
-autocmd InsertEnter * setlocal spell spelllang=en_us   "spell in locale en-US"
-autocmd InsertLeave * setlocal nospell            "disable spell in view mode"
+" spell check words in comments, but only in insert mode
+" - enable spelling in insert mode, in English (US) and French
+autocmd InsertEnter * setlocal spell spelllang=en_us,fr
+" - disable spelling in command mode
+autocmd InsertLeave * setlocal nospell
 
 " References:
 " http://phuzz.org/vimrc.html
