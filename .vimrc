@@ -20,6 +20,17 @@ colorscheme norwaytoday
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set list
 
+" highlight 81st column to remember to avoid long lines
+if exists('+colorcolumn') " feature added in vim 7.3
+  set colorcolumn=81
+endif
+
+" show line and column of cursor position to remember to keep files short
+set ruler
+set rulerformat=%=%l/%L%  " in right aligned group, right of %=,
+                          " display current line number %l, a /,
+                          " followed with total lines number %L
+
 " status info
 set title                 "show file name in title bar of console window
 
