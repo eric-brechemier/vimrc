@@ -27,7 +27,7 @@ endif
 
 " show line and column of cursor position to remember to keep files short
 set ruler
-set rulerformat=%=%l/%L%  " in right aligned group, right of %=,
+set rulerformat=%=%l/%L   " in right aligned group, right of %=,
                           " display current line number %l, a /,
                           " followed with total lines number %L
 
