@@ -24,27 +24,26 @@ mkdir ~/.vim/spell
 # base URL for download of binary word lists used in spelling
 spellUrl="http://ftp.vim.org/vim/runtime/spell/"
 
+getspell()
+{
+  curl -s -S "$spellUrl/$1" > "$HOME/.vim/spell/$1" 
+}
+
 echo 'Download updated files for spelling in English'
-wget \
-  --timestamping \
-  --directory-prefix=$HOME/.vim/spell \
-  "$spellUrl/README_en.txt" \
-  "$spellUrl/en.ascii.spl" \
-  "$spellUrl/en.ascii.sug" \
-  "$spellUrl/en.latin1.spl" \
-  "$spellUrl/en.latin1.sug" \
-  "$spellUrl/en.utf-8.spl" \
-  "$spellUrl/en.utf-8.sug"
+getspell 'README_en.txt'
+getspell 'en.ascii.spl'
+getspell 'en.ascii.sug'
+getspell 'en.latin1.spl'
+getspell 'en.latin1.sug'
+getspell 'en.utf-8.spl'
+getspell 'en.utf-8.sug'
 
 echo 'Download files for spelling in French'
-wget \
-  --timestamping \
-  --directory-prefix=$HOME/.vim/spell \
-  "$spellUrl/README_fr.txt" \
-  "$spellUrl/fr.latin1.spl" \
-  "$spellUrl/fr.latin1.sug" \
-  "$spellUrl/fr.utf-8.spl" \
-  "$spellUrl/fr.utf-8.sug"
+getspell 'README_fr.txt'
+getspell 'fr.latin1.spl'
+getspell 'fr.latin1.sug'
+getspell 'fr.utf-8.spl'
+getspell 'fr.utf-8.sug'
 
 echo 'Create subdirectory for swap files'
 mkdir ~/.vim/swap
