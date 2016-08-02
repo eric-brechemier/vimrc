@@ -14,7 +14,7 @@ set tabstop       =8      "display width of a tab character"
 
 " syntax highlighting
 syntax on
-colorscheme norwaytoday
+" colorscheme norwaytoday
 
 " display distinct visible characters for whitespace other than regular space
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
