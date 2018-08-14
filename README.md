@@ -4,9 +4,9 @@
 
 Shell (dash)
 
-## Target Platform ##
+## Target Platforms ##
 
-Ubuntu 12.04 LTS
+Ubuntu 16.04 LTS and macOS
 
 ## Features ##
 
