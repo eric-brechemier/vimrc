@@ -23,8 +23,9 @@ from the root of your home folder.
 
 * http://phuzz.org/vimrc.html
 
-* [Remove swap and backup files from your working directory]
-  (http://vim.wikia.com/wiki/Remove_swap_and_backup_files_from_your_working_directory)
+* [Remove swap and backup files from your working directory][1]
+
+[1]: http://vim.wikia.com/wiki/Remove_swap_and_backup_files_from_your_working_directory
 
 ## Author ##
 Eric Bréchemier
