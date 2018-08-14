@@ -11,6 +11,8 @@ Ubuntu 12.04 LTS
 ## Features ##
 
 * norwaytoday color scheme by Josh O'Rourke (public domain)
+* English word lists by Kevin Atkinson based on SCOWL (BSD)
+* French word lists by Christophe Pythoud et al. (LGPL/GPL/MPL)
 
 ## Setup ##
 
