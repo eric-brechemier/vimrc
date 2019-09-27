@@ -6,7 +6,7 @@ Shell (dash)
 
 ## Target Platforms ##
 
-Ubuntu 16.04 LTS and macOS
+Ubuntu 18.04 LTS and macOS
 
 ## Features ##
 
