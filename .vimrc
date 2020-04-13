@@ -1,16 +1,16 @@
 " Simple configuration for vim (vimrc)
 " https://github.com/eric-brechemier/vimrc
 
-set nocompatible          "use vim defaults, not vi compatibility"
+set nocompatible          "use vim defaults, not vi compatibility
 set backspace =2          "add support for backspace in vim on cygwin
 
 " indentation
-set nowrap                "do not wrap lines"
-set autoindent            "indent new line like previous line"
-set expandtab             "replace tabs with spaces"
-set softtabstop   =2      "number of spaces inserted for a tab"
-set shiftwidth    =2      "number of spaces for each (auto-)indent step"
-set tabstop       =8      "display width of a tab character"
+set nowrap                "do not wrap lines
+set autoindent            "indent new line like previous line
+set expandtab             "replace tabs with spaces
+set softtabstop   =2      "number of spaces inserted for a tab
+set shiftwidth    =2      "number of spaces for each (auto-)indent step
+set tabstop       =8      "display width of a tab character
 
 " syntax highlighting
 syntax on
@@ -35,8 +35,8 @@ set rulerformat=%=%l/%L   " in right aligned group, right of %=,
 set title                 "show file name in title bar of console window
 
 " auto-save and buffers
-set nobackup              "do not keep a backup file"
-set autowriteall          "auto-save changes when quitting or switching buffer"
+set nobackup              "do not keep a backup file
+set autowriteall          "auto-save changes when quitting or switching buffer
 
 " swap files
 set directory=~/.vim/swap// "save swap files (*.swp, *.swo, ...) in ~/.vim/swap
@@ -44,11 +44,11 @@ set directory=~/.vim/swap// "save swap files (*.swp, *.swo, ...) in ~/.vim/swap
                             "(/ characters are replaced with %)
 
 " scrolling
-set nostartofline         "keep the cursor on same column on page up/down"
+set nostartofline         "keep the cursor on same column on page up/down
 set virtualedit=all       "allow cursor everywhere in the screen in all modes
 
 " search
-" set ignorecase            "ignore case when searching"
+" set ignorecase            "ignore case when searching
 
 " spell check words in comments, but only in insert mode
 " - enable spelling in insert mode, in English (US) and French
