@@ -45,6 +45,7 @@ set directory=~/.vim/swap// "save swap files (*.swp, *.swo, ...) in ~/.vim/swap
 
 " scrolling
 set nostartofline         "keep the cursor on same column on page up/down"
+set virtualedit=all       "allow cursor everywhere in the screen in all modes
 
 " search
 " set ignorecase            "ignore case when searching"
